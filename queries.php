@@ -170,7 +170,7 @@ function getAllStudentMarks($classId) {
             background-color: #f4f4f9;
         }
         header {
-            background-color: #4CAF50;
+            background-color: #24a9ca;
             color: white;
             padding: 15px;
             text-align: center;
@@ -213,19 +213,19 @@ function getAllStudentMarks($classId) {
             text-align: left;
         }
         th {
-            background-color: #4CAF50;
+            background-color: #24a9ca;
             color: white;
         }
         .button {
             padding: 10px 15px;
-            background-color: #4CAF50;
+            background-color: #24a9ca;
             color: white;
             border: none;
             border-radius: 5px;
             cursor: pointer;
         }
         .button:hover {
-            background-color: #45a049;
+            background-color: #24a9ca;
         }
         h2 {
             color: #333;
@@ -236,7 +236,7 @@ function getAllStudentMarks($classId) {
 <body>
 
 <header>
-    <h1>School Classbook</h1>
+    <h1>KRÉTA 2.0</h1>
 </header>
 
 <nav>
