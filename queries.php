@@ -318,7 +318,7 @@ function getAllStudentMarks($classId) {
         $subjectAverages = getClassSubjectAverage($classId);
 
         echo "<div class='content'>";
-        echo "<h2>Students {$classId}</h2><table><tr><th>Student Name</th><th>Average</th></tr>";
+        echo "<h2>Students </h2><table><tr><th>Student Name</th><th>Average</th></tr>";
         foreach ($students as $student) {
             $studentAverage = getStudentAverage($student['id']);
             echo "<tr><td>{$student['name']}</td><td>{$studentAverage}</td></tr>";
